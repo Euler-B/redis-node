@@ -1,0 +1,16 @@
+{
+  "name": "redis-node",
+  "version": "1.0.0",
+  "description": "proyecto donde aprendo como usar redis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.5",
+    "response-time": "^2.3.2"
+  }
+}
